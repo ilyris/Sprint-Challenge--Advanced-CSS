@@ -33,14 +33,23 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+adaptive design is built for certain pixel widths, with a different type of layout for each width size, when responsive is where the layout is more fluid, the layout will change as the width changes, istead of it being fixed for certain width sizes.
 
 2. Describe what it means to be mobile first vs desktop first.
 
+You starting building the mobile platform first, moving up to Tabelet then into Desktop.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+Doing this makes your default font-size 10px; Which makes styling using rem units easier, this also applies to clients browsers if their default browser font-size is changed, the font size will more predictably
 
 4. How would you describe preprocessing to someone new to CSS?
 
+preprocessing is the ability to use different styling languages that compiles down to css so the browser can read the styles. Preprocessors seems to be styling languages with logic mixed in with it.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Escaping and why might I want to use functions. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
