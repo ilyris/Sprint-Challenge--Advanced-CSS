@@ -1,1 +1,24 @@
 // Mixins Here
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .flex-row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .call-to-action(@padding, @bg-color, @width,@margin, @color, @font-size, @text-align,@border-radius) {
+    padding: @padding;
+    background-color: @bg-color;
+    width: @width;
+    margin: @margin;
+    color: @color;
+    font-size: @font-size;
+    text-align: @text-align;
+    border-radius: @border-radius;
+  }

@@ -1,1 +1,40 @@
 // Navigation code here
+
+#mainNav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: @nav-bg;
+    border-radius: 1px solid @nav-border;
+
+    #mainLogo {
+        text-align: center;
+        font-size: 5rem;
+        margin: 10px 0;
+        color: @ebony-clay;
+        
+    }
+
+    #mainUl {
+        .flex-center();
+        width: 50%;
+        margin: 0 auto;
+        padding: 10px 0;
+
+        @media @phone {
+            width: 100%;
+        }
+
+        .mainLis {
+            padding: 0 20px;
+
+            .mainAnchors {
+                font-size: 1.8rem;
+                text-decoration: none;
+                color: @nav-font;
+                font-weight: 500;
+            }
+        }
+    }
+}
